@@ -54,7 +54,7 @@ export default function Feedback() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col mx-auto max-w-3xl p-6"
+      className="flex flex-col mx-auto max-w-3xl p-6 dark:text-white/90"
     >
       <h1 className="text-4xl mb-4">Contact Us</h1>
 
@@ -62,7 +62,7 @@ export default function Feedback() {
         Name:
       </label>
       <input
-        className="p-3 mb-6 text-2xl rounded-2xl text-black"
+        className="p-3 mb-6 text-2xl rounded-2xl text-black bg-slate-200 dark:bg-white"
         type="text"
         id="name"
         name="name"
@@ -77,7 +77,7 @@ export default function Feedback() {
         Email:
       </label>
       <input
-        className="p-3 mb-6 text-2xl rounded-2xl text-black"
+        className="p-3 mb-6 text-2xl rounded-2xl text-black bg-slate-200 dark:bg-white"
         type="email"
         id="email"
         name="email"
@@ -91,7 +91,7 @@ export default function Feedback() {
         Message:
       </label>
       <textarea
-        className="p-3 mb-6 text-2xl rounded-2xl text-black"
+        className="p-3 mb-6 text-2xl rounded-2xl text-black bg-slate-200 dark:bg-white"
         id="message"
         name="message"
         placeholder="Your message here..."

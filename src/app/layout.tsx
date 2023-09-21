@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-h-full">{children}</body>
+      <body className="max-h-full dark:bg-slate-950">
+        {children}
+      </body>
     </html>
   );
 }
